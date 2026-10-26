@@ -1,0 +1,47 @@
+:root {
+  color-scheme: light;
+  --forest: #244b3b;
+  --cream: #f5f1e8;
+}
+
+body {
+  background:
+    radial-gradient(circle at top left, rgb(255 255 255 / 75%), transparent 35%),
+    var(--cream);
+  color: #252a26;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+.message-card {
+  width: min(100%, 760px);
+  border-radius: 1.25rem;
+}
+
+.eyebrow,
+.attribution {
+  color: var(--forest);
+}
+
+.eyebrow {
+  letter-spacing: 0.12em;
+  font-size: 0.8rem;
+}
+
+.quote {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.35rem, 3vw, 2rem);
+  line-height: 1.5;
+}
+
+.attribution {
+  font-weight: 600;
+}
+
+.btn-primary {
+  --bs-btn-bg: var(--forest);
+  --bs-btn-border-color: var(--forest);
+  --bs-btn-hover-bg: #19382b;
+  --bs-btn-hover-border-color: #19382b;
+  --bs-btn-active-bg: #19382b;
+  --bs-btn-active-border-color: #19382b;
+}
